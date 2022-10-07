@@ -11,17 +11,19 @@ pound.onkeyup = function () {
 
 // .............................................document.................
 document.body.style.backgroundColor = "gray";
-
+dollar.style.fontSize = "40px";
+dollar.style.textAlign = "center";
 dollar.style.position = "absolute";
-dollar.style.left = `230px`;
+dollar.style.left = "37%";
 
-dollar.style.bottom = `190px`;
 // ------------------------------------------------------------------
 pound.style.position = "absolute";
-pound.style.left = `230px`;
-pound.style.bottom = `150px`;
+pound.style.left = "37%";
+pound.style.top = "350px";
+pound.style.fontSize = "40px";
+pound.style.textAlign = "center";
 
 // ------------------------------------------------------------------
 let title = document.getElementById("title");
-title.style.position = "absolute";
-title.style.left = "160px";
+title.style.fontSize = "80px";
+title.style.textAlign = "center";
